@@ -325,6 +325,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MusicPlayer.cs" />
+    <Compile Include="Assets\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
