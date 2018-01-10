@@ -1,0 +1,2 @@
+/Users/zen/programming/Unity/Kronos/Kronos/Temp/UnityVS_obj/Debug/Kronos.csprojResolveAssemblyReference.cache
+/Users/zen/programming/Unity/Kronos/Kronos/Temp/UnityVS_obj/Debug/Kronos.csproj.CoreCompileInputs.cache
