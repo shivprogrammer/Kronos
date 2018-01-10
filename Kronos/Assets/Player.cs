@@ -10,7 +10,9 @@ public class Player : MonoBehaviour {
     [Tooltip("In m")] [SerializeField] float yRange = 5f;
 
     [SerializeField] float positionPitchFactor = -8f;
-    [SerializeField] float controlPitchFactor = -30f;
+    [SerializeField] float controlPitchFactor = -20f;
+    [SerializeField] float positionYawFactor = 5f;
+    [SerializeField] float controlRollFactor = -20f;
 
     float xThrow, yThrow;
 
@@ -29,8 +31,11 @@ public class Player : MonoBehaviour {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
         float pitchDueToControlThrow = yThrow * controlPitchFactor;
         float pitch = pitchDueToPosition + pitchDueToControlThrow;
-        float yaw = 0f;
-        float roll = 0f;
+
+        float yaw = transform.localPosition.x * positionYawFactor;
+
+        float roll = xThrow * controlRollFactor;
+
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
