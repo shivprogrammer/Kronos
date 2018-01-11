@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos", "Kronos.csproj", "{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos.Plugins", "Kronos.Plugins.csproj", "{7F7EC526-92DD-E8BC-D8F4-9E894D5DF287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos", "Kronos.csproj", "{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos.Editor.Plugins", "Kronos.Editor.Plugins.csproj", "{D571FC36-894A-EE91-295E-F547086DB20A}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F7EC526-92DD-E8BC-D8F4-9E894D5DF287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F7EC526-92DD-E8BC-D8F4-9E894D5DF287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7EC526-92DD-E8BC-D8F4-9E894D5DF287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7EC526-92DD-E8BC-D8F4-9E894D5DF287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B0DF82-BDA8-8336-3382-A6A7EF13F1A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D571FC36-894A-EE91-295E-F547086DB20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D571FC36-894A-EE91-295E-F547086DB20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D571FC36-894A-EE91-295E-F547086DB20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
