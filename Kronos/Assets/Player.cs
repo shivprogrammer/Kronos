@@ -5,7 +5,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour {
 
-    [Tooltip("In ms^-1")][SerializeField] float speed = 10f;
+    [Tooltip("In ms^-1")][SerializeField] float speed = 7f;
     [Tooltip("In m")][SerializeField] float xRange = 5f;
     [Tooltip("In m")] [SerializeField] float yRange = 5f;
 
