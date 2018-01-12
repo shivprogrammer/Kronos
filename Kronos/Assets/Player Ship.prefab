@@ -126,9 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  xRange: 3.5
-  yRange: 3.5
-  positionPitchFactor: -8
+  xRange: 3.2
+  yRange: 2.8
+  positionPitchFactor: -4
   controlPitchFactor: -20
   positionYawFactor: 5
   controlRollFactor: -20
