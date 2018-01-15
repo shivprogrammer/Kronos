@@ -345,15 +345,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 8
+      value: 6.45
       objectReference: {fileID: 0}
     - target: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691, type: 2}
       propertyPath: m_LocalRotation.x
@@ -375,15 +375,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114050502385436992, guid: fc61c859dcc144281922211bd715b691,
+    - target: {fileID: 23905224455808124, guid: fc61c859dcc144281922211bd715b691,
         type: 2}
-      propertyPath: speed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 114050502385436992, guid: fc61c859dcc144281922211bd715b691,
-        type: 2}
-      propertyPath: controlPitchFactor
-      value: -15
+      propertyPath: m_DynamicOccludee
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc61c859dcc144281922211bd715b691, type: 2}
@@ -584,7 +579,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 50
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -608,14 +603,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1957643872}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.04354925, y: 0.056638833, z: -0.0024729057, w: 0.9974415}
+  m_LocalPosition: {x: 30, y: 30, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1585153815}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 5, y: 6.5, z: 0}
 --- !u!114 &1957643877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,7 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 487371147}
-  lookAheadForTargetOffset: 1.5
+  lookAheadForTargetOffset: 1
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
