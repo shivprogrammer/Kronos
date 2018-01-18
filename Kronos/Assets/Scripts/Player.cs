@@ -20,6 +20,10 @@ public class Player : MonoBehaviour {
 	void Start () {
 		
 	}
+
+    void OnCollisionEnter(Collision collision) {
+        print("Player hit something"); 
+    }
 	
 	// Update is called once per frame
 	void Update () {
