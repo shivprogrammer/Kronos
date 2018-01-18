@@ -21,11 +21,7 @@ public class Player : MonoBehaviour {
 		
 	}
 
-    void OnCollisionEnter(Collision collision) {
-        print("Player hit something"); 
-    }
-
-    private void OnTriggerEnter(Collider other) {
+    void OnTriggerEnter(Collider other) {
         print("Player triggered something"); 
     }
 
