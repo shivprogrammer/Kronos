@@ -318,21 +318,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
     type: 2}
   m_PrefabInternal: {fileID: 844071740}
---- !u!54 &839926929
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 839926926}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &839926930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -612,7 +597,6 @@ GameObject:
   - component: {fileID: 1351481100}
   - component: {fileID: 1351481099}
   - component: {fileID: 1351481102}
-  - component: {fileID: 1351481101}
   m_Layer: 0
   m_Name: Ship_01
   m_TagString: Untagged
@@ -663,21 +647,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1351481098}
   m_Mesh: {fileID: 4300014, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
---- !u!54 &1351481101
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1351481098}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1351481102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1009,21 +978,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1074994750746910, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
     type: 2}
   m_PrefabInternal: {fileID: 1325086644}
---- !u!54 &2076105014
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076105011}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &2076105015
 BoxCollider:
   m_ObjectHideFlags: 0
