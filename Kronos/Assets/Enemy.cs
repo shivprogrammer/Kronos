@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
+    [SerializeField] GameObject deathFx;
+
 	// Use this for initialization
 	void Start () {
         Collider boxCollider = gameObject.AddComponent<BoxCollider>();
