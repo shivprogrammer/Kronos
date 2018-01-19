@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour {
         ProcessRotation();
     }
 
+    void OnPlayerDeath() {
+        print("Controls frozen");
+    }
+
     private void ProcessRotation() {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
         float pitchDueToControlThrow = yThrow * controlPitchFactor;
