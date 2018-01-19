@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour {
 
@@ -9,7 +10,6 @@ public class CollisionHandler : MonoBehaviour {
     }
 
     private void StartDeathSequence() {
-        print("Player dying");
         SendMessage("OnPlayerDeath"); 
     }
 }
