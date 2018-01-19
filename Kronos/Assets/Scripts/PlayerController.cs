@@ -6,7 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class PlayerController : MonoBehaviour {
 
     [Header("General")]
-    [Tooltip("In ms^-1")][SerializeField] float speed = 10f;
+    [Tooltip("In ms^-1")][SerializeField] float controlSpeed = 10f;
     [Tooltip("In m")][SerializeField] float xRange = 6f;
     [Tooltip("In m")] [SerializeField] float yRange = 4.5f;
 
@@ -43,8 +43,8 @@ public class PlayerController : MonoBehaviour {
         xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
         yThrow = CrossPlatformInputManager.GetAxis("Vertical");
 
-        float xOffset = xThrow * speed * Time.deltaTime;
-        float yOffset = yThrow * speed * Time.deltaTime;
+        float xOffset = xThrow * controlSpeed * Time.deltaTime;
+        float yOffset = yThrow * controlSpeed * Time.deltaTime;
 
         float xPos = transform.localPosition.x + xOffset;
         float yPos = transform.localPosition.y + yOffset;
