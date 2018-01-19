@@ -3902,6 +3902,64 @@ Prefab:
       propertyPath: deathFX
       value: 
       objectReference: {fileID: 974076938}
+    - target: {fileID: 1742153412240422, guid: fc61c859dcc144281922211bd715b691, type: 2}
+      propertyPath: m_Name
+      value: Bullets Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078279086776112, guid: fc61c859dcc144281922211bd715b691, type: 2}
+      propertyPath: m_Name
+      value: Bullets Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 198523495397925560, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: randomSeed
+      value: -411287164
+      objectReference: {fileID: 0}
+    - target: {fileID: 198523495397925560, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198892222437791602, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: randomSeed
+      value: 1937276862
+      objectReference: {fileID: 0}
+    - target: {fileID: 198892222437791602, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198523495397925560, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198892222437791602, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198523495397925560, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198892222437791602, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198523495397925560, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198892222437791602, guid: fc61c859dcc144281922211bd715b691,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc61c859dcc144281922211bd715b691, type: 2}
   m_IsPrefabParent: 0
