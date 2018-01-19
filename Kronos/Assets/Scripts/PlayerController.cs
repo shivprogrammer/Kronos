@@ -18,17 +18,19 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] float controlPitchFactor = -20f;
     [SerializeField] float controlRollFactor = -20f;
 
-
     float xThrow, yThrow;
+    bool isControlEnabled = true;
 
     // Update is called once per frame
     void Update () {
-        ProcessTranslation();
-        ProcessRotation();
+        if (isControlEnabled) {
+            ProcessTranslation();
+            ProcessRotation();
+        }
     }
 
     void OnPlayerDeath() {
-        print("Controls frozen");
+        isControlEnabled = false;
     }
 
     private void ProcessRotation() {
