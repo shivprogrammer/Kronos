@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 
     [Tooltip("In ms^-1")][SerializeField] float speed = 10f;
     [Tooltip("In m")][SerializeField] float xRange = 6f;
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour {
     void Update () {
         ProcessTranslation();
         ProcessRotation();
-	}
+    }
 
     private void ProcessRotation() {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
