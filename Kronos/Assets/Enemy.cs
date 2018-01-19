@@ -15,6 +15,6 @@ public class Enemy : MonoBehaviour {
 	}
 
     private void OnParticleCollision(GameObject other) {
-        print("the bullets have hit the enemy " + gameObject.name); 
+        Destroy(gameObject);
     }
 }
