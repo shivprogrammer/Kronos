@@ -529,7 +529,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -154000113
+  randomSeed: -2001706261
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3902,6 +3902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b35295abc1541cca69f2b59b8b4d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
 --- !u!65 &839926930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4285,6 +4286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b35295abc1541cca69f2b59b8b4d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
 --- !u!65 &1351481102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4575,6 +4577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b35295abc1541cca69f2b59b8b4d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
 --- !u!65 &2076105015
 BoxCollider:
   m_ObjectHideFlags: 0
