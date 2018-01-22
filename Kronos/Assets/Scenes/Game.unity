@@ -401,6 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
   parent: {fileID: 423405031}
+  scorePerHit: 25
 --- !u!65 &839926930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -562,7 +563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b5d3cc3a88c14383a26a6d17aaf7528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHit: 12
 --- !u!1001 &1064177970
 Prefab:
   m_ObjectHideFlags: 0
@@ -833,6 +833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
   parent: {fileID: 423405031}
+  scorePerHit: 12
 --- !u!65 &1351481102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -977,6 +978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
   parent: {fileID: 423405031}
+  scorePerHit: 12
 --- !u!65 &1581660454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1178,7 +1180,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 110
+  field of view: 100
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1222,7 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 487371147}
-  lookAheadForTargetOffset: 1
+  lookAheadForTargetOffset: 5
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
@@ -1383,6 +1385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
   parent: {fileID: 423405031}
+  scorePerHit: 50
 --- !u!65 &2076105015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1489,6 +1492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1939320372539446, guid: 2b4f2e2e1e5b34cf5885976a6dde743f, type: 2}
   parent: {fileID: 423405031}
+  scorePerHit: 12
 --- !u!65 &2124115702
 BoxCollider:
   m_ObjectHideFlags: 0
