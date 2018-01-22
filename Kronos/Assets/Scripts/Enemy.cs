@@ -7,11 +7,18 @@ public class Enemy : MonoBehaviour {
     [SerializeField] GameObject deathFX;
     [SerializeField] Transform parent;
 
+    ScoreBoard scoreBoard;
+
 	// Use this for initialization
 	void Start () {
+        AddBoxCollider();
+        scoreBoard = FindObjectOfType<ScoreBoard>();
+	}
+
+    private void AddBoxCollider() {
         Collider boxCollider = gameObject.AddComponent<BoxCollider>();
         boxCollider.isTrigger = false;
-	}
+    }
 
     void OnParticleCollision(GameObject other) {
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
