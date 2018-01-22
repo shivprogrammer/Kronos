@@ -580,7 +580,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 6.45
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1178,7 +1178,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 80
+  field of view: 110
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
