@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour {
         if (isControlEnabled) {
             ProcessTranslation();
             ProcessRotation();
+            ProcessFiring();
         }
     }
 
@@ -59,5 +60,11 @@ public class PlayerController : MonoBehaviour {
         float clampedYPos = Mathf.Clamp(yPos, -yRange, yRange);
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
+    }
+
+    void ProcessFiring() {
+        if (CrossPlatformInputManager.GetButton("Fire")) {
+            print("Firing");
+        }
     }
 }
