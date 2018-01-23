@@ -994,6 +994,8 @@ GameObject:
   - component: {fileID: 1581660455}
   - component: {fileID: 1581660454}
   - component: {fileID: 1581660453}
+  - component: {fileID: 1581660458}
+  - component: {fileID: 1581660457}
   m_Layer: 0
   m_Name: Watcher (3)
   m_TagString: Untagged
@@ -1085,6 +1087,41 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1581660451}
   m_Mesh: {fileID: 4300014, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
+--- !u!95 &1581660457
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581660451}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!320 &1581660458
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581660451}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 2bf32b7500bd04dc9a0e576235871b90, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 114379364652400136, guid: 2bf32b7500bd04dc9a0e576235871b90, type: 2}
+    value: {fileID: 1581660451}
+  m_ExposedReferences:
+    m_References: []
 --- !u!4 &1585153815 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4368479120423446, guid: fc61c859dcc144281922211bd715b691,
