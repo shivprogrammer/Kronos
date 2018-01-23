@@ -1547,6 +1547,8 @@ GameObject:
   - component: {fileID: 2124115703}
   - component: {fileID: 2124115702}
   - component: {fileID: 2124115701}
+  - component: {fileID: 2124115706}
+  - component: {fileID: 2124115705}
   m_Layer: 0
   m_Name: Watcher (2)
   m_TagString: Untagged
@@ -1561,8 +1563,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2124115699}
-  m_LocalRotation: {x: -0, y: 0.953717, z: -0, w: -0.30070576}
-  m_LocalPosition: {x: -474.6, y: -12.1, z: -87.7}
+  m_LocalRotation: {x: 0, y: 0.953717, z: 0, w: -0.30070576}
+  m_LocalPosition: {x: -474.6, y: 8.7, z: -87.7}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
   m_Father: {fileID: 1221481094}
@@ -1638,3 +1640,42 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2124115699}
   m_Mesh: {fileID: 4300014, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
+--- !u!95 &2124115705
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124115699}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!320 &2124115706
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124115699}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 1e198687543704957a920385572d2e52, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 114668819228592718, guid: 1e198687543704957a920385572d2e52, type: 2}
+    value: {fileID: 2124115699}
+  - key: {fileID: 114355401157766448, guid: 1e198687543704957a920385572d2e52, type: 2}
+    value: {fileID: 2124115699}
+  - key: {fileID: 114476370472192178, guid: 1e198687543704957a920385572d2e52, type: 2}
+    value: {fileID: 2124115699}
+  m_ExposedReferences:
+    m_References: []
