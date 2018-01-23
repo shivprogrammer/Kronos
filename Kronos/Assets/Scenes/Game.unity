@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 1351481102}
   - component: {fileID: 1351481101}
   m_Layer: 0
-  m_Name: Ship_01
+  m_Name: Watcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 1581660454}
   - component: {fileID: 1581660453}
   m_Layer: 0
-  m_Name: Ship_01 (2)
+  m_Name: Watcher (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1511,7 +1511,7 @@ GameObject:
   - component: {fileID: 2124115702}
   - component: {fileID: 2124115701}
   m_Layer: 0
-  m_Name: Ship_01 (1)
+  m_Name: Watcher (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
